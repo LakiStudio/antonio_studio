@@ -1,17 +1,1 @@
-// link for Chistmass game code
-
-const inp_code = document.querySelector(".inp-code")
-let out = document.querySelector(".out-secrets")
-
-document.querySelector(".btn-code").onclick = function() {
-    if (inp_code.value === "christmas" || inp_code.value === "Christmas") {
-        let button1 = document.createElement("button")
-        let link = document.createElement("a")
-        link.href = "https://drive.google.com/uc?export=download&id=15h2kVTUa9f6ve5Q996YU1WK4TKM7Cr7V"
-        link.textContent = "Download Christmas.exe"
-        link.style.textDecoration = "none"
-        link.style.color = "black"
-        button1.appendChild(link)
-        out.appendChild(button1)
-    }
-}
+const _0x45d1f4=_0x24df;function _0x1ea2(){const _0x5b2418=['5220348JaDTCK','12419109qLPclt','color','.btn-code','none','appendChild','href','2735396XJuOJz','1589zzlVnw','value','Download\x20Christmas.exe','textDecoration','querySelector','5548067sxlexn','button','style','190uueKlr','https://drive.google.com/uc?export=download&id=15h2kVTUa9f6ve5Q996YU1WK4TKM7Cr7V','1681515vEPREi','.out-secrets','8NQbQEj','.inp-code','1494825WQBiCh','black','christmas'];_0x1ea2=function(){return _0x5b2418;};return _0x1ea2();}(function(_0x30cd40,_0x4bd105){const _0x3dee66=_0x24df,_0xaafe4=_0x30cd40();while(!![]){try{const _0x2d33e2=-parseInt(_0x3dee66(0x95))/0x1*(parseInt(_0x3dee66(0x84))/0x2)+-parseInt(_0x3dee66(0x86))/0x3+parseInt(_0x3dee66(0x94))/0x4+parseInt(_0x3dee66(0x8a))/0x5+parseInt(_0x3dee66(0x8d))/0x6+parseInt(_0x3dee66(0x9a))/0x7+parseInt(_0x3dee66(0x88))/0x8*(-parseInt(_0x3dee66(0x8e))/0x9);if(_0x2d33e2===_0x4bd105)break;else _0xaafe4['push'](_0xaafe4['shift']());}catch(_0xa75b4a){_0xaafe4['push'](_0xaafe4['shift']());}}}(_0x1ea2,0x8746c));const inp_code=document[_0x45d1f4(0x99)](_0x45d1f4(0x89));function _0x24df(_0x5d575f,_0x288d21){const _0x1ea290=_0x1ea2();return _0x24df=function(_0x24df47,_0x513748){_0x24df47=_0x24df47-0x84;let _0x35d3bd=_0x1ea290[_0x24df47];return _0x35d3bd;},_0x24df(_0x5d575f,_0x288d21);}let out=document[_0x45d1f4(0x99)](_0x45d1f4(0x87));document['querySelector'](_0x45d1f4(0x90))['onclick']=function(){const _0x113ac6=_0x45d1f4;if(inp_code[_0x113ac6(0x96)]===_0x113ac6(0x8c)||inp_code[_0x113ac6(0x96)]==='Christmas'){let _0x5430fb=document['createElement'](_0x113ac6(0x9b)),_0x56c92e=document['createElement']('a');_0x56c92e[_0x113ac6(0x93)]=_0x113ac6(0x85),_0x56c92e['textContent']=_0x113ac6(0x97),_0x56c92e[_0x113ac6(0x9c)][_0x113ac6(0x98)]=_0x113ac6(0x91),_0x56c92e[_0x113ac6(0x9c)][_0x113ac6(0x8f)]=_0x113ac6(0x8b),_0x5430fb[_0x113ac6(0x92)](_0x56c92e),out[_0x113ac6(0x92)](_0x5430fb);}};
