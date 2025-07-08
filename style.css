@@ -200,25 +200,19 @@ a{
     height: 30px;
 }
 
-.loading {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    padding: 20px;
+
+
+/* ========================= */
+/* Адаптивність для планшетів і телефонів */
+/* ========================= */
+
+/* Обнулення падінгу в контейнері */
+.container {
+    padding: 0 15px;
 }
 
-
-
-
-
-
-
+/* Заголовок: краще виглядає на мобільному */
 @media (max-width: 768px) {
-    .container {
-        padding: 0 15px;
-    }  
     .header {
         flex-direction: column;
         height: auto;
@@ -304,4 +298,21 @@ a{
     .foot {
         font-size: 16px;
     }
+}
+
+.Info{
+    text-align: center;
+}
+
+@keyframes text-change {
+  0% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.title-info {
+   animation: text-change 1s infinite;
 }
